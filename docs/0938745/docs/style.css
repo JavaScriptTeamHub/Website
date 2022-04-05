@@ -154,6 +154,7 @@ textarea {
     cursor: text;
     border: 1px solid green;
     background-color: transparent;
+    outline: none;
 }
 
 #termInput {
