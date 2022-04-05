@@ -1,0 +1,173 @@
+* {
+    font-family: "Courier New";
+    cursor: default;
+    color: green;
+    user-select: none;
+    overflow: hidden;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.wtext {
+    text-align: center;
+}
+
+.bg {
+    background-color: black
+}
+
+#body fieldset {
+    border: 1px solid green;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align: center;
+}
+
+input {
+    background-color: transparent;
+    border: 1px solid green;
+    cursor: text;
+    outline: none;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid green;
+    cursor: deafult;
+    outline: none;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 1px solid rgb(0, 70, 0);
+    cursor: deafult;
+    outline: none;
+    color: rgb(0, 70, 0);
+}
+
+.hidden {
+    display: none;
+}
+
+#navbarMenu {
+    cursor: deafult;
+}
+
+#navbarMenu .menu-1 {
+    background-color: green;
+    width: 40px;
+    height: 6px;
+    margin-top: 5px;
+    cursor: deafult;
+}
+
+#navbarMenu .menu-2 {
+    background-color: green;
+    width: 40px;
+    height: 6px;
+    margin-top: 5px;
+    cursor: deafult;
+}
+
+#navbarMenu .menu-3 {
+    background-color: green;
+    width: 40px;
+    height: 6px;
+    margin-top: 5px;
+    cursor: deafult;
+}
+
+#searchItem {
+    position: absolute;
+    top: 17px;
+    left: 80px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.topnav a {
+  float: left;
+  color: green;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: deafult;
+}
+
+.topnav a:hover {
+  background-color: green;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: green;
+  color: black;
+}
+
+.toRandomLocFiell {
+    position: absolute;
+    top: 100px;
+    left: 124px;
+}
+
+#openedNavbarMenu {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(39, 39, 39, 0.651);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align: center;
+}
+
+.openedNavbarMenu-exit-btn {
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 70px;
+}
+
+#more {
+    width: 200px;
+    height: 400px;
+    background-color: rgba(39, 39, 39, 0.651);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align: center;
+}
+
+textarea {
+    cursor: text;
+    border: 1px solid green;
+    background-color: transparent;
+}
+
+#termInput {
+    position: absolute;
+    top: 40px;
+    left: 1px;
+}
+
+#_TOs {
+    background-color: transparent;
+    color: transparent;
+    border: none;
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    font-size: 20px;
+}
